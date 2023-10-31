@@ -1,5 +1,5 @@
 # TrabalhoFinalPD24S (Corretora de seguros)
-trabalho final do prof querido
+trabalho final do prof querido.
 Uma corretora de seguros precisa que seja programado um terminal de
 autoatendimento para o cliente, onde ele possa realizar a simulação e contratação de
 um seguro de automóvel zero ou seminovo. O sistema deve ser desenvolvido em C#, com
