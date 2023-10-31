@@ -1,0 +1,10 @@
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.exe.config
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.exe
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.pdb
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.AssemblyReference.cache
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.Properties.Resources.resources
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.GenerateResource.cache
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.CoreCompileInputs.cache
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.exe
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.pdb
+D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.Form1.resources
