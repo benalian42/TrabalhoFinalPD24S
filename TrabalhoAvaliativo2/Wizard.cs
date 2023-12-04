@@ -24,9 +24,11 @@ namespace TrabalhoAvaliativo2
         {
             if (e.Control && e.KeyCode == Keys.F5)
             {
+                FormAdministrativo admin = new FormAdministrativo();
+                admin.MdiParent = this;
+                admin.Show();
                 e.Handled = true;
                 e.SuppressKeyPress = true;
-                
             }
             
         }
@@ -35,7 +37,8 @@ namespace TrabalhoAvaliativo2
         {
             InitializeComponent();
             //teste
-            
+            this.IsMdiContainer = true;
+
             tornarFullscreen();
             this.KeyDown += telaAdministracao;
         }

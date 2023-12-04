@@ -15,7 +15,6 @@ namespace TrabalhoAvaliativo2
         public FormAdministrativo()
         {
             InitializeComponent();
-            this.IsMdiContainer = true;
         }
 
         private void testeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -26,6 +25,16 @@ namespace TrabalhoAvaliativo2
         private void marcasToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void fecharJanelaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MdiParent.ActiveMdiChild.Close();
         }
     }
 }

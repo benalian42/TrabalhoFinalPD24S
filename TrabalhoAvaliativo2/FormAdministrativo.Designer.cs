@@ -34,6 +34,7 @@
             this.modelosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabelaFIPEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fecharJanelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +54,7 @@
             this.marcasToolStripMenuItem,
             this.modelosToolStripMenuItem,
             this.tabelaFIPEToolStripMenuItem,
+            this.fecharJanelaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.testeToolStripMenuItem.Name = "testeToolStripMenuItem";
             this.testeToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
@@ -83,6 +85,14 @@
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // fecharJanelaToolStripMenuItem
+            // 
+            this.fecharJanelaToolStripMenuItem.Name = "fecharJanelaToolStripMenuItem";
+            this.fecharJanelaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fecharJanelaToolStripMenuItem.Text = "Fechar Janela";
+            this.fecharJanelaToolStripMenuItem.Click += new System.EventHandler(this.fecharJanelaToolStripMenuItem_Click);
             // 
             // FormAdministrativo
             // 
@@ -110,5 +120,6 @@
         private System.Windows.Forms.ToolStripMenuItem modelosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabelaFIPEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fecharJanelaToolStripMenuItem;
     }
 }

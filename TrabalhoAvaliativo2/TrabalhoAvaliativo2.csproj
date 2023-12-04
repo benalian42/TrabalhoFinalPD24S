@@ -64,6 +64,11 @@
     <Compile Include="FormMarcas.Designer.cs">
       <DependentUpon>FormMarcas.cs</DependentUpon>
     </Compile>
+    <Compile Include="trabalhoSegurosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>trabalhoSegurosDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Wizard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +85,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAdministrativo.resx">
       <DependentUpon>FormAdministrativo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFIPE.resx">
+      <DependentUpon>FormFIPE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMarcas.resx">
+      <DependentUpon>FormMarcas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Wizard.resx">
       <DependentUpon>Wizard.cs</DependentUpon>
@@ -102,6 +113,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="trabalhoSegurosDataSet.xsc">
+      <DependentUpon>trabalhoSegurosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="trabalhoSegurosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>trabalhoSegurosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="trabalhoSegurosDataSet.xss">
+      <DependentUpon>trabalhoSegurosDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
