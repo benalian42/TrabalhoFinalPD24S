@@ -8,3 +8,14 @@ D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\Tr
 D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.exe
 D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.pdb
 D:\Faculdade\4º periodo\desktop\Trabalho Final\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.Form1.resources
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.exe.config
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.exe
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.pdb
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.AssemblyReference.cache
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.Form1.resources
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.Properties.Resources.resources
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.GenerateResource.cache
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.CoreCompileInputs.cache
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.exe
+C:\Users\Aburugudu\Source\Repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.pdb

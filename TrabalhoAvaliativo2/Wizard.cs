@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace TrabalhoAvaliativo2
 {
-    public partial class Form1 : Form
+    public partial class Wizard : Form
     {
         
         private void tornarFullscreen()
@@ -31,7 +31,7 @@ namespace TrabalhoAvaliativo2
             
         }
 
-        public Form1()
+        public Wizard()
         {
             InitializeComponent();
             //teste

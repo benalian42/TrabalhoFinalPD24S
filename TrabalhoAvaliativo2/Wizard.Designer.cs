@@ -1,6 +1,6 @@
 ﻿namespace TrabalhoAvaliativo2
 {
-    partial class Form1
+    partial class Wizard
     {
         /// <summary>
         /// Variável de designer necessária.
