@@ -1,10 +1,10 @@
-﻿CREATE TABLE [dbo].[Marcas] (
+CREATE TABLE [dbo].[Marcas] (
     [ID]    INT           NOT NULL,
     [Marca] NVARCHAR (50) NOT NULL,
     PRIMARY KEY CLUSTERED ([ID] ASC)
 );
      
-
+go
 
 CREATE TABLE [dbo].[Modelos] (
     [MarcaID]  INT           NULL,
@@ -15,7 +15,7 @@ CREATE TABLE [dbo].[Modelos] (
 );
 
 
-
+go
 
 
 CREATE TABLE [dbo].[TabelaFIPE] (
@@ -28,7 +28,7 @@ CREATE TABLE [dbo].[TabelaFIPE] (
 );
 
 
-
+go
 
 
 CREATE TABLE [dbo].[Clientes] (
@@ -51,7 +51,7 @@ CREATE TABLE [dbo].[Clientes] (
     PRIMARY KEY CLUSTERED ([ClienteID] ASC)
 );
 
-
+go
      
 
 CREATE TABLE [dbo].[Apolices] (
