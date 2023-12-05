@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="TrabalhoSegurosDataSet" targetNamespace="http://tempuri.org/TrabalhoSegurosDataSet.xsd" xmlns:mstns="http://tempuri.org/TrabalhoSegurosDataSet.xsd" xmlns="http://tempuri.org/TrabalhoSegurosDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+<xs:schema id="trabalhoSegurosDataSet1" targetNamespace="http://tempuri.org/trabalhoSegurosDataSet1.xsd" xmlns:mstns="http://tempuri.org/trabalhoSegurosDataSet1.xsd" xmlns="http://tempuri.org/trabalhoSegurosDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
@@ -433,7 +433,7 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)</Comm
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="TrabalhoSegurosDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="TrabalhoSegurosDataSet" msprop:Generator_DataSetName="TrabalhoSegurosDataSet">
+  <xs:element name="trabalhoSegurosDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="trabalhoSegurosDataSet1" msprop:Generator_DataSetName="trabalhoSegurosDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="Apolices" msprop:Generator_RowEvHandlerName="ApolicesRowChangeEventHandler" msprop:Generator_RowDeletedName="ApolicesRowDeleted" msprop:Generator_RowDeletingName="ApolicesRowDeleting" msprop:Generator_RowEvArgName="ApolicesRowChangeEvent" msprop:Generator_TablePropName="Apolices" msprop:Generator_RowChangedName="ApolicesRowChanged" msprop:Generator_RowChangingName="ApolicesRowChanging" msprop:Generator_TableClassName="ApolicesDataTable" msprop:Generator_RowClassName="ApolicesRow" msprop:Generator_TableVarName="tableApolices" msprop:Generator_UserTableName="Apolices">

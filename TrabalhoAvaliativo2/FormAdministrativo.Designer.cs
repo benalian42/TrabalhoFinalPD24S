@@ -33,8 +33,8 @@
             this.marcasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modelosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabelaFIPEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fecharJanelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,19 +73,14 @@
             this.modelosToolStripMenuItem.Name = "modelosToolStripMenuItem";
             this.modelosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.modelosToolStripMenuItem.Text = "Modelos...";
+            this.modelosToolStripMenuItem.Click += new System.EventHandler(this.modelosToolStripMenuItem_Click);
             // 
             // tabelaFIPEToolStripMenuItem
             // 
             this.tabelaFIPEToolStripMenuItem.Name = "tabelaFIPEToolStripMenuItem";
             this.tabelaFIPEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tabelaFIPEToolStripMenuItem.Text = "Tabela FIPE...";
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            this.tabelaFIPEToolStripMenuItem.Click += new System.EventHandler(this.tabelaFIPEToolStripMenuItem_Click);
             // 
             // fecharJanelaToolStripMenuItem
             // 
@@ -93,6 +88,13 @@
             this.fecharJanelaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fecharJanelaToolStripMenuItem.Text = "Fechar Janela";
             this.fecharJanelaToolStripMenuItem.Click += new System.EventHandler(this.fecharJanelaToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // FormAdministrativo
             // 
@@ -103,7 +105,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormAdministrativo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Área Administrativa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

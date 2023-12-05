@@ -12,9 +12,13 @@ namespace TrabalhoAvaliativo2
 {
     public partial class FormAdministrativo : Form
     {
+        FormFIPE formFipe;
+        FormMarcas formMarcas;
+        FormModelos formModelos;
         public FormAdministrativo()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
 
         private void testeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -24,7 +28,9 @@ namespace TrabalhoAvaliativo2
 
         private void marcasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            this.formMarcas = new FormMarcas();
+            formMarcas.MdiParent = this;
+            formMarcas.Show();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -34,7 +40,21 @@ namespace TrabalhoAvaliativo2
 
         private void fecharJanelaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MdiParent.ActiveMdiChild.Close();
+            this.Close();
+        }
+
+        private void tabelaFIPEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.formFipe = new FormFIPE();
+            formFipe.MdiParent = this;
+            formFipe.Show();
+        }
+
+        private void modelosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.formModelos = new FormModelos();
+            formModelos.MdiParent = this;
+            formModelos.Show();
         }
     }
 }

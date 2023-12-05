@@ -33,5 +33,16 @@ namespace TrabalhoAvaliativo2.Properties {
                 return ((string)(this["trabalhoSegurosConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=np:\\\\.\\pipe\\LOCALDB#09CC2146\\tsql\\query;Initial Catalog=trabalhoSegur" +
+            "os;Integrated Security=True")]
+        public string trabalhoSegurosConnectionString1 {
+            get {
+                return ((string)(this["trabalhoSegurosConnectionString1"]));
+            }
+        }
     }
 }

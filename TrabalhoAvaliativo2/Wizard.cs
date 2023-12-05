@@ -13,7 +13,7 @@ namespace TrabalhoAvaliativo2
 {
     public partial class Wizard : Form
     {
-        
+        Timer timer = new Timer();        
         private void tornarFullscreen()
         {
             FormBorderStyle = FormBorderStyle.None;
@@ -25,22 +25,27 @@ namespace TrabalhoAvaliativo2
             if (e.Control && e.KeyCode == Keys.F5)
             {
                 FormAdministrativo admin = new FormAdministrativo();
-                admin.MdiParent = this;
                 admin.Show();
                 e.Handled = true;
                 e.SuppressKeyPress = true;
             }
-            
         }
 
         public Wizard()
         {
             InitializeComponent();
-            //teste
-            this.IsMdiContainer = true;
+
+            //seta o intervalo do timer em 3 min
+            timer.Interval = 180000;
+            timer.Tick += reiniciarProcesso;
 
             tornarFullscreen();
             this.KeyDown += telaAdministracao;
+        }
+
+        private void reiniciarProcesso(object sender, EventArgs e)
+        {
+            Console.WriteLine("3 min passaram");
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)

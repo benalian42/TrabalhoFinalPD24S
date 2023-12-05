@@ -20,9 +20,9 @@ namespace TrabalhoAvaliativo2 {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("TrabalhoSegurosDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("trabalhoSegurosDataSet1")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class TrabalhoSegurosDataSet : global::System.Data.DataSet {
+    public partial class trabalhoSegurosDataSet1 : global::System.Data.DataSet {
         
         private ApolicesDataTable tableApolices;
         
@@ -50,7 +50,7 @@ namespace TrabalhoAvaliativo2 {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public TrabalhoSegurosDataSet() {
+        public trabalhoSegurosDataSet1() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -61,7 +61,7 @@ namespace TrabalhoAvaliativo2 {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected TrabalhoSegurosDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected trabalhoSegurosDataSet1(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -199,7 +199,7 @@ namespace TrabalhoAvaliativo2 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            TrabalhoSegurosDataSet cln = ((TrabalhoSegurosDataSet)(base.Clone()));
+            trabalhoSegurosDataSet1 cln = ((trabalhoSegurosDataSet1)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -313,9 +313,9 @@ namespace TrabalhoAvaliativo2 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "TrabalhoSegurosDataSet";
+            this.DataSetName = "trabalhoSegurosDataSet1";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/TrabalhoSegurosDataSet.xsd";
+            this.Namespace = "http://tempuri.org/trabalhoSegurosDataSet1.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableApolices = new ApolicesDataTable();
@@ -395,7 +395,7 @@ namespace TrabalhoAvaliativo2 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            TrabalhoSegurosDataSet ds = new TrabalhoSegurosDataSet();
+            trabalhoSegurosDataSet1 ds = new trabalhoSegurosDataSet1();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -922,7 +922,7 @@ namespace TrabalhoAvaliativo2 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                TrabalhoSegurosDataSet ds = new TrabalhoSegurosDataSet();
+                trabalhoSegurosDataSet1 ds = new trabalhoSegurosDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1428,7 +1428,7 @@ namespace TrabalhoAvaliativo2 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                TrabalhoSegurosDataSet ds = new TrabalhoSegurosDataSet();
+                trabalhoSegurosDataSet1 ds = new trabalhoSegurosDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1702,7 +1702,7 @@ namespace TrabalhoAvaliativo2 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                TrabalhoSegurosDataSet ds = new TrabalhoSegurosDataSet();
+                trabalhoSegurosDataSet1 ds = new trabalhoSegurosDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1993,7 +1993,7 @@ namespace TrabalhoAvaliativo2 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                TrabalhoSegurosDataSet ds = new TrabalhoSegurosDataSet();
+                trabalhoSegurosDataSet1 ds = new trabalhoSegurosDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2289,7 +2289,7 @@ namespace TrabalhoAvaliativo2 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                TrabalhoSegurosDataSet ds = new TrabalhoSegurosDataSet();
+                trabalhoSegurosDataSet1 ds = new trabalhoSegurosDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3624,7 +3624,7 @@ namespace TrabalhoAvaliativo2 {
         }
     }
 }
-namespace TrabalhoAvaliativo2.TrabalhoSegurosDataSetTableAdapters {
+namespace TrabalhoAvaliativo2.trabalhoSegurosDataSet1TableAdapters {
     
     
     /// <summary>
@@ -3954,7 +3954,7 @@ SELECT ApoliceID, ClienteID, Marca, Modelo, AnoFabricacao, AnoModelo, Combustive
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(TrabalhoSegurosDataSet.ApolicesDataTable dataTable) {
+        public virtual int Fill(trabalhoSegurosDataSet1.ApolicesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3967,9 +3967,9 @@ SELECT ApoliceID, ClienteID, Marca, Modelo, AnoFabricacao, AnoModelo, Combustive
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual TrabalhoSegurosDataSet.ApolicesDataTable GetData() {
+        public virtual trabalhoSegurosDataSet1.ApolicesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            TrabalhoSegurosDataSet.ApolicesDataTable dataTable = new TrabalhoSegurosDataSet.ApolicesDataTable();
+            trabalhoSegurosDataSet1.ApolicesDataTable dataTable = new trabalhoSegurosDataSet1.ApolicesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3977,14 +3977,14 @@ SELECT ApoliceID, ClienteID, Marca, Modelo, AnoFabricacao, AnoModelo, Combustive
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet.ApolicesDataTable dataTable) {
+        public virtual int Update(trabalhoSegurosDataSet1.ApolicesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet dataSet) {
+        public virtual int Update(trabalhoSegurosDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Apolices");
         }
         
@@ -4925,7 +4925,7 @@ SELECT ClienteID, Nome, Endereco, CEP, Cidade, UF, Telefone, Celular, CPF, RG, O
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(TrabalhoSegurosDataSet.ClientesDataTable dataTable) {
+        public virtual int Fill(trabalhoSegurosDataSet1.ClientesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4938,9 +4938,9 @@ SELECT ClienteID, Nome, Endereco, CEP, Cidade, UF, Telefone, Celular, CPF, RG, O
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual TrabalhoSegurosDataSet.ClientesDataTable GetData() {
+        public virtual trabalhoSegurosDataSet1.ClientesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            TrabalhoSegurosDataSet.ClientesDataTable dataTable = new TrabalhoSegurosDataSet.ClientesDataTable();
+            trabalhoSegurosDataSet1.ClientesDataTable dataTable = new trabalhoSegurosDataSet1.ClientesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4948,14 +4948,14 @@ SELECT ClienteID, Nome, Endereco, CEP, Cidade, UF, Telefone, Celular, CPF, RG, O
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet.ClientesDataTable dataTable) {
+        public virtual int Update(trabalhoSegurosDataSet1.ClientesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet dataSet) {
+        public virtual int Update(trabalhoSegurosDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Clientes");
         }
         
@@ -5700,7 +5700,7 @@ SELECT ClienteID, Nome, Endereco, CEP, Cidade, UF, Telefone, Celular, CPF, RG, O
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(TrabalhoSegurosDataSet.MarcasDataTable dataTable) {
+        public virtual int Fill(trabalhoSegurosDataSet1.MarcasDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5713,9 +5713,9 @@ SELECT ClienteID, Nome, Endereco, CEP, Cidade, UF, Telefone, Celular, CPF, RG, O
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual TrabalhoSegurosDataSet.MarcasDataTable GetData() {
+        public virtual trabalhoSegurosDataSet1.MarcasDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            TrabalhoSegurosDataSet.MarcasDataTable dataTable = new TrabalhoSegurosDataSet.MarcasDataTable();
+            trabalhoSegurosDataSet1.MarcasDataTable dataTable = new trabalhoSegurosDataSet1.MarcasDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5723,14 +5723,14 @@ SELECT ClienteID, Nome, Endereco, CEP, Cidade, UF, Telefone, Celular, CPF, RG, O
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet.MarcasDataTable dataTable) {
+        public virtual int Update(trabalhoSegurosDataSet1.MarcasDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet dataSet) {
+        public virtual int Update(trabalhoSegurosDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Marcas");
         }
         
@@ -6028,7 +6028,7 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(TrabalhoSegurosDataSet.ModelosDataTable dataTable) {
+        public virtual int Fill(trabalhoSegurosDataSet1.ModelosDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6041,9 +6041,9 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual TrabalhoSegurosDataSet.ModelosDataTable GetData() {
+        public virtual trabalhoSegurosDataSet1.ModelosDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            TrabalhoSegurosDataSet.ModelosDataTable dataTable = new TrabalhoSegurosDataSet.ModelosDataTable();
+            trabalhoSegurosDataSet1.ModelosDataTable dataTable = new trabalhoSegurosDataSet1.ModelosDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6051,14 +6051,14 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet.ModelosDataTable dataTable) {
+        public virtual int Update(trabalhoSegurosDataSet1.ModelosDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet dataSet) {
+        public virtual int Update(trabalhoSegurosDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Modelos");
         }
         
@@ -6363,7 +6363,7 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(TrabalhoSegurosDataSet.TabelaFIPEDataTable dataTable) {
+        public virtual int Fill(trabalhoSegurosDataSet1.TabelaFIPEDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6376,9 +6376,9 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual TrabalhoSegurosDataSet.TabelaFIPEDataTable GetData() {
+        public virtual trabalhoSegurosDataSet1.TabelaFIPEDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            TrabalhoSegurosDataSet.TabelaFIPEDataTable dataTable = new TrabalhoSegurosDataSet.TabelaFIPEDataTable();
+            trabalhoSegurosDataSet1.TabelaFIPEDataTable dataTable = new trabalhoSegurosDataSet1.TabelaFIPEDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6386,14 +6386,14 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet.TabelaFIPEDataTable dataTable) {
+        public virtual int Update(trabalhoSegurosDataSet1.TabelaFIPEDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(TrabalhoSegurosDataSet dataSet) {
+        public virtual int Update(trabalhoSegurosDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "TabelaFIPE");
         }
         
@@ -6636,7 +6636,7 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(TrabalhoSegurosDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(trabalhoSegurosDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._marcasTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Marcas.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -6691,7 +6691,7 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(TrabalhoSegurosDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(trabalhoSegurosDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._marcasTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Marcas.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -6741,7 +6741,7 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(TrabalhoSegurosDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(trabalhoSegurosDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._tabelaFIPETableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.TabelaFIPE.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -6815,7 +6815,7 @@ SELECT MarcaID, ModeloID, Modelo FROM Modelos WHERE (ModeloID = @ModeloID)";
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(TrabalhoSegurosDataSet dataSet) {
+        public virtual int UpdateAll(trabalhoSegurosDataSet1 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
