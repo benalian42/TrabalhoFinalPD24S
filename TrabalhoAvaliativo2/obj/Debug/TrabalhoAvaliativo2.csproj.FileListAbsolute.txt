@@ -21,3 +21,7 @@ C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug
 C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.pdb
 C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.exe
 C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.pdb
+C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug\trabalhoSeguros.mdf
+C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug\trabalhoSeguros_log.ldf
+C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormFIPE.resources
+C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormModelos.resources

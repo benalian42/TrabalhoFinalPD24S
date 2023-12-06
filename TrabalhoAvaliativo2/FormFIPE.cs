@@ -16,5 +16,20 @@ namespace TrabalhoAvaliativo2
         {
             InitializeComponent();
         }
+
+        private void tabelaFIPEBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabelaFIPEBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.trabalhoSegurosDataSet);
+
+        }
+
+        private void FormFIPE_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'trabalhoSegurosDataSet.TabelaFIPE'. Você pode movê-la ou removê-la conforme necessário.
+            this.tabelaFIPETableAdapter.Fill(this.trabalhoSegurosDataSet.TabelaFIPE);
+
+        }
     }
 }

@@ -16,5 +16,20 @@ namespace TrabalhoAvaliativo2
         {
             InitializeComponent();
         }
+
+        private void marcasBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.marcasBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.trabalhoSegurosDataSet);
+
+        }
+
+        private void FormMarcas_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'trabalhoSegurosDataSet.Marcas'. Você pode movê-la ou removê-la conforme necessário.
+            this.marcasTableAdapter.Fill(this.trabalhoSegurosDataSet.Marcas);
+
+        }
     }
 }

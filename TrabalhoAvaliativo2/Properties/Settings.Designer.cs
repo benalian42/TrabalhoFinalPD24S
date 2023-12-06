@@ -26,8 +26,9 @@ namespace TrabalhoAvaliativo2.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=np:\\\\.\\pipe\\LOCALDB#122A7B6B\\tsql\\query;Initial Catalog=trabalhoSegur" +
-            "os;Integrated Security=True;Pooling=False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=trabalhoSeguros;AttachDBFilename=C:\\Users\\Aburugudu\\source\\repos\\Trab" +
+            "alhoFinalPD24S\\TrabalhoAvaliativo2\\trabalhoSeguros.mdf;Initial Catalog=trabalhoS" +
+            "eguros;Integrated Security=True;Pooling=False")]
         public string trabalhoSegurosConnectionString {
             get {
                 return ((string)(this["trabalhoSegurosConnectionString"]));
@@ -37,11 +38,23 @@ namespace TrabalhoAvaliativo2.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=np:\\\\.\\pipe\\LOCALDB#09CC2146\\tsql\\query;Initial Catalog=trabalhoSegur" +
-            "os;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=trabalhoSeguros;AttachDBFilename=C:\\Users\\Aburugudu\\source\\repos\\Trab" +
+            "alhoFinalPD24S\\TrabalhoAvaliativo2\\trabalhoSeguros.mdf;Initial Catalog=trabalhoS" +
+            "eguros;Integrated Security=True")]
         public string trabalhoSegurosConnectionString1 {
             get {
                 return ((string)(this["trabalhoSegurosConnectionString1"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\trabalhoSegur" +
+            "os.mdf;Integrated Security=True;Connect Timeout=30")]
+        public string trabalhoSegurosMdfNoProjeto {
+            get {
+                return ((string)(this["trabalhoSegurosMdfNoProjeto"]));
             }
         }
     }
