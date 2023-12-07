@@ -25,3 +25,19 @@ C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug
 C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\bin\Debug\trabalhoSeguros_log.ldf
 C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormFIPE.resources
 C:\Users\Aburugudu\source\repos\TrabalhoFinalPD24S\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormModelos.resources
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\bin\Debug\trabalhoSeguros.mdf
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\bin\Debug\trabalhoSeguros_log.ldf
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.exe.config
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.exe
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\bin\Debug\TrabalhoAvaliativo2.pdb
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.AssemblyReference.cache
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormAdministrativo.resources
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormFIPE.resources
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormMarcas.resources
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.FormModelos.resources
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.Wizard.resources
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.Properties.Resources.resources
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.GenerateResource.cache
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.csproj.CoreCompileInputs.cache
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.exe
+C:\Users\marca\OneDrive\Área de Trabalho\Trabalho final desk\TrabalhoAvaliativo2\obj\Debug\TrabalhoAvaliativo2.pdb
